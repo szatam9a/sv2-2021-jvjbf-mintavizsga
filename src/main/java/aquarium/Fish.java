@@ -1,6 +1,6 @@
 package aquarium;
 
-public abstract class Fish {
+public class Fish {
     private String name;
     private int weight;
     private String color;
@@ -18,7 +18,9 @@ public abstract class Fish {
                 ", weight: " + weight +
                 ", color: " + color +", short-term memory loss: " +hasMemoryLoss();
     }
-    public abstract void feed();
+    public void feed(){
+        
+    };
 
     public String getName() {
         return name;
